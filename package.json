@@ -4,7 +4,10 @@
   "description": "A simple node app for controlling a Sonos system with basic HTTP requests",
   "scripts": {
     "start": "node server.js",
-    "lint": "eslint lib"
+    "lint": "eslint lib",
+    "pm2link": "node ./node_modules/pm2/bin/pm2 link 7sskdz0k606ir0q vym26ygf2zmunfw",
+    "pm2start": "./node_modules/.bin/pm2 start ./ecosystem.config.js --env production",
+    "pm2stop": "node ./node_modules/pm2/bin/pm2 delete sonos-api"
   },
   "author": "Jimmy Shimizu <jimmy@shimizu.se>",
   "repository": {
