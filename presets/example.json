@@ -1,29 +1,21 @@
 {
   "players": [
+	{
+	  "roomName": "SonosAccueil",
+	  "volume": 90
+	},
     {
-      "roomName": "Bathroom",
-      "volume": 10
+      "roomName": "Sonos-Basket",
+      "volume": 90
     },
     {
-      "roomName": "Kitchen",
-      "volume": 10
-    },
-    {
-      "roomName": "Office",
-      "volume": 10
-    },
-    {
-      "roomName": "Bedroom",
-      "volume": 10
-    },
-    {
-      "roomName": "TV Room",
-      "volume": 15
+      "roomName": "Foot-1",
+      "volume": 90
     }
   ],
   "playMode": {
-    "shuffle": true,
-    "repeat": "all",
+    "shuffle": false,
+    "repeat": "false",
     "crossfade": false
   },
   "pauseOthers": false,
